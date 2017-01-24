@@ -1,0 +1,10 @@
+version: '3'
+services:
+  database:
+    image: qnib/plain-mongodb
+    ports:
+     - 27017:27017
+  frontend:
+    image: qnib/plain-rocketchat
+    ports:
+     - 3000:3000

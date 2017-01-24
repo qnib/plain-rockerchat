@@ -1,5 +1,4 @@
 #!/bin/bash
 
-cd /opt/rocketchat/
+cd /opt/rocketchat/bundle
 node main.js
-
